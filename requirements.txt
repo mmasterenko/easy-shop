@@ -1,0 +1,8 @@
+Django
+djangorestframework
+django-filter
+dj-database-url
+psycopg2-binary
+django-extensions
+django-debug-toolbar
+ipython
