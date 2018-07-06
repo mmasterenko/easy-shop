@@ -18,3 +18,11 @@ CACHES = {
         'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
     }
 }
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'utils.auth.backends.SettingsBackend',
+]
+
+ADMIN_LOGIN = 'admin'
+ADMIN_PASSWORD = 'admin'
