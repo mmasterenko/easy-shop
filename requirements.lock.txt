@@ -10,7 +10,7 @@ Django==2.0.7
 django-debug-toolbar==1.9.1
 django-extensions==2.0.7
 django-filter==1.1.0
-djangorestframework==3.8.2
+djangorestframework==3.9.1
 docutils==0.14
 drf-yasg==1.9.1
 flex==6.13.2
